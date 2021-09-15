@@ -1,0 +1,63 @@
+#container h1{
+    color:#a880ff;
+    text-align: center;
+    font-size: 40px;
+}
+
+.box{
+    margin: 4%;
+    text-align: center;
+    padding: 5%;
+    max-height: max-content;
+    border-bottom: 1px solid #a880ff;
+}
+
+.img img{
+    width: 150px;
+    height: 150px;
+}
+
+.nome_dica h2{
+    color: #80ddff;
+    font-size: 28px;
+}
+
+.list{
+    text-align: justify;
+    font-size: 18px;
+} 
+
+.list p{
+    text-align: center;
+}
+
+.list ul li{
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+
+.list ul li span{
+    font-size: 21px;
+    font-weight: bolder;
+    color: #fff080;
+}
+
+#ref_icone{
+    text-align: center;
+    font-size: 12px;
+}
+
+#ref_icone a{
+    text-decoration: none;
+}
+
+@media (max-width: 375px){
+    #container h1{
+        font-size: 35px;
+    }
+
+    .img img{
+        width: 90px;
+        height: 90px;
+    }
+}

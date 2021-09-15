@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>CAIFRO</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" type="text/css" href="css/estilo_padrao.css">
+        <link rel="icon" href="img/logo.png">
+        <link rel="stylesheet" type="text/css" href="css/estilo_index.css">
+        <script src="js/menu.js"></script>
+
+        <!--Links para usar ícones-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    </head>
+
+    <body>
+
+        <div id="main">
+            
+            <div class="header">
+                <div  id="header_1">
+                    <div id="logo"><img src="img/logo.png"></div>
+
+                    <div id="titulo">
+                        <h1>Clube de Astronomia</h1>
+                        <b>IFRO - Porto Velho Calama</b>
+                    </div>
+
+                    <a href="#" onclick="show_menu()" class="menu_btt">
+                        <i class="material-icons">menu</i>
+                    </a>
+                </div>
+
+                <div class= "menu" id="nav">
+                    <a href="index.html">Página Inicial</a>
+
+                    <div class="dropdown">
+                        <button class="btt_drop" onclick="open_dropdown()">
+                            Pesquisas
+                            <i class="fa fa-caret-down" style="padding-left: 5px;"></i>
+                        </button>
+                        <div class="dropdown_content">
+                            <a href="pesquisas_notc_artg.html"> Notícias/Artigos</a>
+                            <a href="pesquisas_conceituais.html"> Conteúdos Conceituais</a>
+                        </div>
+                    </div>
+
+                    <a href="glossario.html">Glossário</a>
+
+                    <a href="dicas_estudo.html">Dicas de Estudo</a>
+
+                    <a href="sobre_nos.html">Sobre Nós</a>
+
+                    <a href="atv_clube.html">Atividades do Clube</a>
+                </div>
+            </div>
+
+            <div id="container">
+
+                <div id="cntd_principal">
+                    <h1>O que é o <span>CAIFRO</span>?</h1>
+    
+                    <p>O CAIFRO é o Clube de Astronomia do Instituto 
+                        Federal de Rondônia. Nasceu como iniciativa 
+                        de tentar disseminar conhecimento e sobre
+                         Astronomia, Astrofísica e o trabalho 
+                         científico para os alunos do Instituto 
+                         Federal e comunidade externa. Criamos o 
+                         CAIFRO para que outros jovens apaixonados
+                          por ciência e pelo universo pudessem 
+                          compartilhar do mesmo amor em um clube
+                    </p>
+    
+                    <a href="explorar.html">Explorar</a>
+                </div>
+                
+                <div id="cntd_secundario">
+    
+                    <div class="box" id="box_1">
+                        <div><img src="img/pesquisa-conceitual_01 - Buracos Negros.jpeg" alt="Buracos Negros"></div>
+                        <div id="cntd_box_1">
+                            <h4><span>PESQUISA</span></h4>
+                            <a href="conceituais_box_01.html">Buracos Negros - uma breve introdução</a>
+                        </div>
+                    </div>
+    
+                    <div class="box" id="box_2">
+                        <div><img src="img/pesquisa-conceitual_02-Esquema de Hubble.jpeg" alt="Esquema de Hubble"></div>
+                        <div id="cntd_box_2">
+                            <h4><span>PESQUISA</span></h4>
+                            <a href="conceituais_box_02.html">Formação de uma estrela, sua diversidade, e seu fim</a>
+                        </div>
+                    </div>
+    
+                    <div class="box" id="box_3">
+                        <div><img src="img/pesquisa-conceitual_03-Como se formam as estrelas.jpg" alt=""></div>
+                        <div id="cntd_box_3">
+                            <h4><span>PESQUISA</span></h4>
+                            <a href="conceituais_box_03.html">Colisão cósmica rara ocorre duas vezes em 10 dias</a>
+                        </div>
+                    </div>
+    
+                </div>
+                
+            </div> 
+    
+            <div id="footer">
+                <p>DIREITOS RESERVADOS - CAIFRO 2021</p>
+            </div>
+    
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+body{
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    background-image: url("../img/Background1.png");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    color: white;
+}
+
+#header_1{
+    padding: 15px 25px;
+    display: flex;
+    line-height: 10px;
+    background-color: #401E51;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+#logo{
+    height: 60px;
+}
+
+#logo img{
+    height: 100%;
+}
+
+#titulo{
+    padding: 0px 10px;
+    width: 85%;
+}
+
+#titulo h1{
+    font-size: 24px;
+}
+
+#titulo b{
+    font-size: 14px;
+}
+
+#nav{
+    font-size: 20px;
+}
+
+#main{
+    margin: 20px 50px;
+    border-radius: 14px;
+    background-color: rgb(19, 19, 19);
+}
+
+#container{
+    margin: auto;
+    padding: 30px;
+    background-color: rgb(19, 19, 19);
+    font-size: 19px;
+}
+
+#container h1{
+    font-size: 40px;
+}
+
+#footer{
+    margin: 0px;
+    padding: 1px;
+    text-align: center;
+    font-size: 12px;
+    background-color:#401E51;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+/*Estilo do Menu*/
+.menu{
+    overflow:hidden;
+    background-color: #333;
+}
+
+.menu a{
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*Estilo do menu dropdown*/
+
+.header .menu_btt{
+    display: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    float: right;
+}
+
+.dropdown{
+    float:left;
+    overflow: hidden;
+}
+
+.dropdown .btt_drop{
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: #969696;
+    min-width: 160px;
+    /*desenha uma sombra atrás*/
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown_content a{
+    float:none;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.menu a:hover, .dropdown:hover .btt_drop{
+    transition: 0.5s;
+    background-color: #555;
+}
+
+.dropdown_content a:hover{
+    background-color: rgb(126, 126, 126);
+    color:#6E4E7D;
+}
+
+.dropdown_content.active{
+    display: block;
+}
+
+/* Esconde as opções do menu e ativa o botão para o menu responsivo*/
+
+@media screen and (max-width: 1000px){
+
+    .menu{
+        display: none;
+    }
+
+    .header .menu_btt{
+        display: block;
+    }
+
+    #nav {
+        flex-direction: column;
+    }
+
+    .btt_drop, .dropdown_content{
+        text-align: center;
+        width: 100%;
+    }
+
+    .dropdown_content{
+        position: relative;
+        display: none;
+    }
+
+    .dropdown_content a{
+        text-align: center;
+    }
+    
+}
+
+/* Responsividade */
+
+@media(max-width:750px){
+    #titulo h1{
+        font-size: 22px;
+    }
+
+    #titulo b{
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width: 550px){
+    #main{
+        margin: 5px ;
+    }
+}
+
+@media(max-width: 450px){
+    body{
+        margin: 0%;
+    }
+
+    #header_1{
+        padding: 10px 15px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+    #titulo h1{
+        font-size: 20px;
+    }
+
+    #titulo b{
+        font-size: 10px;
+    }
+
+    #logo{
+        height: 50px;
+    }
+
+    #nav{
+        font-size: 18px;
+    }
+
+    #main{
+        margin: 0%;
+        border-radius: 0px;
+    }
+
+    #footer{
+        font-size: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+}
+
+@media(max-width: 350px){
+
+    #header_1{
+        padding: 10px;
+    }
+
+    #titulo h1{
+        font-size: 17px;
+    }
+}
+
+@media(max-width: 310px){
+    #titulo{
+        display: none;
+    }
+
+    
+    .header .menu_btt{
+        position: absolute;
+        right: 2px;
+    }
+}

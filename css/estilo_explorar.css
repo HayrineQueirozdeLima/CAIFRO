@@ -1,0 +1,52 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box{
+    padding: 5px;
+    width: 30%;
+    min-width: 30%;
+}
+
+.box a{
+    text-decoration: none;
+    color: #A880FF;
+}
+
+.box h1{
+    text-align: center;
+    color: #A880FF;
+    font-size: 40px;
+}
+
+.box p{
+    text-align: justify;
+    font-size: 25px;
+}
+
+p {
+    text-indent:40px;
+}
+
+@media(max-width:820px){
+    #container{
+        display: block;
+        justify-content: center;
+    }
+
+    .box{
+        width: unset;
+    }
+
+    .box h1{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:500px){
+    #container p{
+        font-size: 20px;
+    }
+}

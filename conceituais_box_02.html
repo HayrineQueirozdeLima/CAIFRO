@@ -1,0 +1,227 @@
+<html>
+    <head>
+        <title>CAIFRO</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" type="text/css" href="css/estilo_padrao.css">
+        <link rel="icon" href="img/logo.png">
+        <link rel="stylesheet" type="text/css" href="css/estilo_conceituais_box_02.css">
+        <script src="js/menu.js"></script>
+
+        <!--Links para usar ícones-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    </head>
+
+    <body>
+
+        <div id="main">
+            
+            <div class="header">
+                <div  id="header_1">
+                    <div id="logo"><img src="img/logo.png"></div>
+
+                    <div id="titulo">
+                        <h1>Clube de Astronomia</h1>
+                        <b>IFRO - Porto Velho Calama</b>
+                    </div>
+
+                    <a href="#" onclick="show_menu()" class="menu_btt">
+                        <i class="material-icons">menu</i>
+                    </a>
+                </div>
+
+                <div class= "menu" id="nav">
+                    <a href="index.html">Página Inicial</a>
+
+                    <div class="dropdown">
+                        <button class="btt_drop" onclick="open_dropdown()">
+                            Pesquisas
+                            <i class="fa fa-caret-down" style="padding-left: 5px;"></i>
+                        </button>
+                        <div class="dropdown_content">
+                            <a href="pesquisas_notc_artg.html"> Notícias/Artigos</a>
+                            <a href="pesquisas_conceituais.html"> Conteúdos Conceituais</a>
+                        </div>
+                    </div>
+
+                    <a href="glossario.html">Glossário</a>
+
+                    <a href="dicas_estudo.html">Dicas de Estudo</a>
+
+                    <a href="sobre_nos.html">Sobre Nós</a>
+
+                    <a href="atv_clube.html">Atividades do Clube</a>
+                </div>
+            </div>
+
+            <div id="container">
+                <div class="box_text" id="text_step01">
+                    <h2>O esquema de Huble</h2>
+
+                    <p>
+                        O esquema de classificação das galáxias que usamos hoje é um dos primeiros e mais
+                        simples já inventados, foi proposto por Edwin Hubble em 1936 no seu livro The Realm
+                        of the Nebula. O esquema de Hubble ultiliza 4 ncias de classificação: elípticas,
+                        espirais e espirais barradas e as galáxias irregulares.                        
+                    </p>
+                </div>
+
+                <div class="img" id="img_principal">
+                    <figure>
+                        <img src="img/pesquisa-conceitual_02-Esquema de Hubble.jpeg" alt="  Esquema de Hubble">
+                        <figcaption>Esquema de Hubble</figcaption>
+                    </figure>
+                </div>
+
+                <div class="box_text" id="text_step02">
+                    <p>
+                        <span>Espirais(S)</span> - Quando vistas de frente elas claramente apresentam estruturas em espiral.
+                        Elas possuem um núcleo, um disco, um halo, e braços espirais. As galáxias espirais se
+                        diferenciam principalmente quanto ao tamanho do núcleo e ao grau de desenvolvimento
+                        dos braços espirais. Assim, elas são subdivididas nas categorias Sa, Sb e Sc, de acordo
+                        com o grau de desenvolvimento e enrolamento dos braços espirais e com o tamanho do
+                        núcleo comparado com o do disco.    
+                    </p>
+
+                    <ul>
+                        <li>Sa – núcleo maior, braços pequenos e bem enrolados.</li>
+                        <li>Sb – núcleo e braços intermediários</li>
+                        <li>Sc – núcleo menor, braços grandes e mais abertos</li>
+                    </ul>
+                </div>
+
+                <div class="img">
+                    <div id="img_01">
+                        <figure>
+                            <img src="img/pesquisa-conceitual_02- Sa.png" alt="">
+                            <figcaption>Sa</figcaption>
+                        </figure>
+                    </div>
+                    <div id="img_02">
+                        <figure>
+                            <img src="img/pesquisa-conceitual_02- Sb.png" alt="">
+                            <figcaption>Sb</figcaption>
+                        </figure>
+                    </div>
+                    <div id="img_03">
+                        <figure>
+                            <img src="img/pesquisa-conceitual_02- Sc.png" alt="">
+                            <figcaption>Sc</figcaption>
+                        </figure>
+                    </div>
+                    <!-- <figcaption>Fotos de galáxias por Jim Wray, no McDonald Observatory.</figcaption> -->
+                </div>
+
+                <div class="box_text" id="text_step03">
+                    <p>
+                        <span>Espirais Barradas(SB)</span> – Existem galáxias que têm núcleo, disco e halo, mas não têm
+                        traços de estrutura espiral. Hubble classificou essas galáxias como lenticulares. As
+                        galáxias espirais e lenticulares juntas formam o conjunto das galáxias discoidais.
+                        Muitas das galáxias discoidais apresentam uma estrutura em forma de barra
+                        atravessando o núcleo. Elas são chamadas Espirais barradas e no esquema de Hubble
+                        elas são identificadas pelas iniciais SB. As galáxias barradas se subdividem nas 
+                        categorias SB0, SBa, SBb, e SBc. Nas espirais barradas, os braços normalmente parte
+                        das extremidades da barra.    
+                    </p>
+                </div>
+
+                <div class="img">
+                    <div id="img_04">
+                        <figure>
+                            <img src="img/pesquisa-conceitual_02- SBa.png" alt="">
+                            <figcaption>SBa</figcaption>
+                        </figure>
+                    </div>
+                    <div id="img_05">
+                        <figure>
+                            <img src="img/pesquisa-conceitual_02- SBb.png" alt="">
+                            <figcaption>SBb</figcaption>
+                        </figure>
+                    </div>
+                    <div id="img_06">
+                        <figure>
+                            <img src="img/pesquisa-conceitual_02- SBc.png" alt="">
+                            <figcaption>SBc</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="box_text" id="text_step04">
+                    <p>
+                        <span>Elípticas(E)</span> – As galáxias elípticas apresentam forma esférica ou elipsoidal, e não têm
+                        estrutura espiral, têm pouco gás, pouca poeira e poucas estrelas jovens. Hubble
+                        subdividiu as galáxias elípticas em classes de E0 a E7, de acordo com o seu grau de
+                        achatamento. Uma galáxia E0 é circular nas classificações seguintes elas vão sendo
+                        achatadas gradativamente.    
+                    </p>
+
+                    <P>
+                        O tamanho das galáxias elípticas são variados, desde super-gigantes até anãs. As
+                        maiores galáxias elípticas têm diâmetros de milhões de anos-luz, e as menores têm
+                        somente poucos milhares de anos-luz em diâmetro. As elípticas gigantes, que têm
+                        massas de até 10 trilhões de massas solares, são raras, mas as anãs são o tipo mais
+                        comum de galáxias.
+                    </P>
+                </div>
+
+                <div class="img">
+                    <div id="img_07">
+                        <figure>
+                            <img src="img/pesquisa-conceitual_02- E0.png" alt="">
+                            <figcaption>E0</figcaption>
+                        </figure>
+                    </div>
+                    <div id="img_08">
+                        <figure>
+                            <img src="img/pesquisa-conceitual_02- E3.png" alt="">
+                            <figcaption>E3</figcaption>
+                        </figure>
+                    </div>
+                    <div id="img_09">
+                        <figure>
+                            <img src="img/pesquisa-conceitual_02- E6.png" alt="">
+                            <figcaption>E6</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="box_text" id="text_step05">
+                    <p>
+                        <span>Irregulares(I)</span> - Hubble classificou como galáxias irregulares aquelas que não tinham
+                        simetria circular ou rotacional, apresentando uma estrutura caótica ou irregular. Muitas
+                        das galáxias irregulares parecem estar sofrendo atividade de formação estelar
+                        relativamente intensa, sua aparência e formada por varias estrelas jovens brilhantes e
+                        nuvens de gás ionizado distribuídas de forma irregular.    
+                    </p>
+                </div>
+
+                <div class="img" id="img_10">
+                    <figure>
+                        <img src="img/pesquisa-conceitual_02- galaxias.png" alt="">
+                        <figcaption>Galáxias irregulares “Grande Nuvem de Magalhães” e “Pequena Nuvem de Magalhães”, por Wei-Hao Wang.</figcaption>
+                    </figure>
+                </div>
+
+                <!-- <div class="box_text" id="text_ref">
+                    <h3>
+                        Referências Bibliográficas:
+                    </h3>
+
+                    <ul>
+                        <li>
+                            FILHO, K. S.; SARAIVA, M. F. “Galáxias”, Astronomia e Astrofísica. Disponível em:
+                            http://astro.if.ufrgs.br/galax/index.htm. Acesso em: 23/07/2021
+                        </li>
+                    </ul>
+                </div> -->
+            </div> 
+    
+            <div id="footer">
+                <p>DIREITOS RESERVADOS - CAIFRO 2021</p>
+            </div>
+    
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,217 @@
+<html>
+    <head>
+        <title>CAIFRO</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" type="text/css" href="css/estilo_padrao.css">
+        <link rel="icon" href="img/logo.png">
+        <link rel="stylesheet" type="text/css" href="css/estilo_dicas_estudo.css">
+        <script src="js/menu.js"></script>
+
+        <!--Links para usar ícones-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    </head>
+
+    <body>
+
+        <div id="main">
+            
+            <div class="header">
+                <div  id="header_1">
+                    <div id="logo"><img src="img/logo.png"></div>
+
+                    <div id="titulo">
+                        <h1>Clube de Astronomia</h1>
+                        <b>IFRO - Porto Velho Calama</b>
+                    </div>
+
+                    <a href="#" onclick="show_menu()" class="menu_btt">
+                        <i class="material-icons">menu</i>
+                    </a>
+                </div>
+
+                <div class= "menu" id="nav">
+                    <a href="index.html">Página Inicial</a>
+
+                    <div class="dropdown">
+                        <button class="btt_drop" onclick="open_dropdown()">
+                            Pesquisas
+                            <i class="fa fa-caret-down" style="padding-left: 5px;"></i>
+                        </button>
+                        <div class="dropdown_content">
+                            <a href="pesquisas_notc_artg.html"> Notícias/Artigos</a>
+                            <a href="pesquisas_conceituais.html"> Conteúdos Conceituais</a>
+                        </div>
+                    </div>
+
+                    <a href="glossario.html">Glossário</a>
+
+                    <a href="dicas_estudo.html">Dicas de Estudo</a>
+
+                    <a href="sobre_nos.html">Sobre Nós</a>
+
+                    <a href="atv_clube.html">Atividades do Clube</a>
+                </div>
+            </div>
+
+            <div id="container">
+                <h1>Dicas de Estudo</h1>
+
+                <div id = dicas_estudo_box>
+                    <div class="box" id = "box_web">
+                        <div class="img">
+                            <img src="img/icone-web.png" alt="">
+                        </div>
+
+                        <div class="nome_dica">
+                            <h2>Explore a WEB!</h2>
+                        </div>
+                        
+                        <div class="list">
+                            <p>
+                                Puxa... ainda não temos dicas para este tipo de canal.
+                                Mas não desanime! Em breve teremos muito mais conteúdos para você!
+                                Sinta-se à vontade para compartilhar conoscos suas dicas também! :)
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box" id = "box_insta">
+                        <div class="img">
+                            <img src="img/icone-instagram.png" alt="">
+                        </div>
+
+                        <div class="nome_dica">
+                            <h2>Instagram</h2>
+                        </div>
+                        <div class="list">
+                            <p>
+                                <!-- o Instagram também pode ser um material divertido para adquirir novos conhecimentos ^.^ -->
+                                Puxa... ainda não temos dicas para este tipo de canal.
+                                Mas não desanime! Em breve teremos muito mais conteúdos para você!
+                                Sinta-se à vontade para compartilhar conoscos suas dicas também! :)
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box" id = "box_book">
+                        <div class="img">
+                            <img src="img/icone-books.png" alt="">
+                        </div>
+
+                        <div class="nome_dica">
+                            <h2>Livros</h2>
+                        </div>
+                        <div class="list">
+                            <!-- Leitura edifica! -->
+                            <ul>
+                                <li>
+                                    <span>Como Funciona o Universo</span>
+                                    , da editora Ciranda Cultural: Uma Combinação 
+                                    Perfeita Livro te o infantojuvenil como público alvo. 
+                                    Com uma linguagem simples, contém muitas imagens, porém, 
+                                    é bem completo e dá uma boa base sobre Astronomia, para 
+                                    quem nunca teve contato com essa Ciência.
+                                </li>
+
+                                <li>
+                                    <span>Uma Breve História do Tempo: do Big Bang aos Buracos Negros</span>
+                                    , de Stephen Hawking: Explica vários temas de Cosmologia, incluindo a 
+                                    Teoria do Big Bang, os buracos negros, os cones de luz e a Teoria das 
+                                    Supercordas ao leitor não especialista no tema. Seu principal objetivo 
+                                    é dar uma visão geral do tema, sendo divertido e explicando conceitos de 
+                                    determinada complexidade de maneira simples e acessível.
+                                </li>
+
+                                <li>
+                                    <span>Astrofísica para apressados</span>
+                                    , de Neil deGrasse Tayson: Quem nunca olhou para o céu numa 
+                                    noite estrelada e se perguntou: que lugar ocupo no espaço? 
+                                    O que tudo isso significa? Como funciona? Em Astrofísica 
+                                    para apressados, o aclamado astrofísico e pesquisador 
+                                    Tayson responde a essas e outras perguntas que certamente 
+                                    todos já fizeram sobre o universo. De forma clara e sucinta, 
+                                    Tyson traduz o cosmos numa obra organizada em capítulos enxutos, 
+                                    escritos para quem tem pressa, mas que oferecem conhecimentos 
+                                    fundamentais sobre todas as principais ideias e descobertas 
+                                    relacionadas ao universo. Um guia para todos aqueles que apreciam 
+                                    ciência, astrofísica e se interessam pelos mistérios do espaço 
+                                    universal.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="box" id = "box_yt">
+                        <div class="img">
+                            <img src="img/icone-youtube.png" alt="">
+                        </div>
+
+                        <div class="nome_dica">
+                            <h2>Youtube</h2>
+                        </div>
+                        <div class="list">
+                            <!-- Vídeos de gatinhos são muuuitoo fofinhos e legais, mas que tal usar o Youtube para aprender um pouco de astronomia? -->
+                            <ul>
+                                <li>
+                                    <span>Café e Ciência </span>
+                                    por Felipe Hime: O Café e Ciência mesmo surgiu em 
+                                    2015, e desde então soma 155 mil inscritos e 5 
+                                    milhões de visualizações. Felipe conta que tem o 
+                                    desejo decompartilhar o seu conhecimento de forma 
+                                    simples e bem compreensiva, de modo que as pessoas 
+                                    possam se interessar mais pela astronomia, aprendendo 
+                                    de um jeito fácil.
+
+                                </li>
+                                
+                                <li>
+                                    <span>Canal Nostalgia </span>
+                                    por Felipe Castanhari: O canal contém uma linguagem 
+                                    fácil de ser compreendida por todos os públicos e 
+                                    tem vídeos educativos sobre vários assuntos, como 
+                                    História. O Canal também contém um quadro chamado 
+                                    “Nostalgia Ciência”, que tem vídeos sobre Astronomia 
+                                    e que desmistificam crenças erradas sobre o espaço.
+
+                                </li>
+                                
+                                <li>
+                                    <span>Ciência Todo Dia </span>
+                                    por Pedro Loos: O canal tem uma abordagem leve, 
+                                    divertida e fácil de ser compreendida por todas 
+                                    as idades. Com vídeos educativos que muitas vezes 
+                                    trazem situações hipotéticas, além de Astronomia 
+                                    são abordados também outras ciências como a 
+                                    Física, Química, etc.
+
+                                </li>
+
+                                <li>
+                                    <span>SpaceToday </span>
+                                    por Sérgio Sacani: É a maior comunidade astronômica 
+                                    do Brasil, e nos ajuda na causa da divulgação 
+                                    científica em nosso País. Seus vídeos são mais 
+                                    teóricos e aprofundados, é um canal muito recomendado 
+                                    caso você já tenha alguma bagagem sobre astronomia.
+
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div id="ref_icone">Icons made by <a href="https://www.freepik.com" title="Freepik" target="_blank">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">www.flaticon.com</a></div>
+                
+                </div>
+            </div> 
+    
+            <div id="footer">
+                <p>DIREITOS RESERVADOS - CAIFRO 2021</p>
+            </div>
+    
+        </div>
+
+    </body>
+</html>
